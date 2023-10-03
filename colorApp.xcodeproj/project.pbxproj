@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		80F612042AC98A2B002CABAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F612032AC98A2B002CABAB /* AppDelegate.swift */; };
 		80F612062AC98A2B002CABAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F612052AC98A2B002CABAB /* SceneDelegate.swift */; };
-		80F612082AC98A2B002CABAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F612072AC98A2B002CABAB /* ViewController.swift */; };
 		80F6120B2AC98A2B002CABAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F612092AC98A2B002CABAB /* Main.storyboard */; };
 		80F6120D2AC98A2F002CABAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F6120C2AC98A2F002CABAB /* Assets.xcassets */; };
 		80F612102AC98A2F002CABAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F6120E2AC98A2F002CABAB /* LaunchScreen.storyboard */; };
+		80F6121A2AC98BA0002CABAB /* ColorTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F612192AC98BA0002CABAB /* ColorTableVC.swift */; };
+		80F6121C2AC98D69002CABAB /* ColorDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6121B2AC98D69002CABAB /* ColorDetailsVC.swift */; };
+		80F612202ACC5AA8002CABAB /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F6121F2ACC5AA8002CABAB /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		80F612002AC98A2B002CABAB /* colorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F612032AC98A2B002CABAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80F612052AC98A2B002CABAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		80F612072AC98A2B002CABAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		80F6120A2AC98A2B002CABAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		80F6120C2AC98A2F002CABAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80F6120F2AC98A2F002CABAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80F612112AC98A2F002CABAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F612192AC98BA0002CABAB /* ColorTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableVC.swift; sourceTree = "<group>"; };
+		80F6121B2AC98D69002CABAB /* ColorDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorDetailsVC.swift; sourceTree = "<group>"; };
+		80F6121F2ACC5AA8002CABAB /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				80F612032AC98A2B002CABAB /* AppDelegate.swift */,
 				80F612052AC98A2B002CABAB /* SceneDelegate.swift */,
-				80F612072AC98A2B002CABAB /* ViewController.swift */,
 				80F612092AC98A2B002CABAB /* Main.storyboard */,
+				80F6121B2AC98D69002CABAB /* ColorDetailsVC.swift */,
+				80F612192AC98BA0002CABAB /* ColorTableVC.swift */,
 				80F6120C2AC98A2F002CABAB /* Assets.xcassets */,
 				80F6120E2AC98A2F002CABAB /* LaunchScreen.storyboard */,
 				80F612112AC98A2F002CABAB /* Info.plist */,
+				80F6121F2ACC5AA8002CABAB /* UIColor+Ext.swift */,
 			);
 			path = colorApp;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80F612082AC98A2B002CABAB /* ViewController.swift in Sources */,
+				80F6121A2AC98BA0002CABAB /* ColorTableVC.swift in Sources */,
+				80F6121C2AC98D69002CABAB /* ColorDetailsVC.swift in Sources */,
+				80F612202ACC5AA8002CABAB /* UIColor+Ext.swift in Sources */,
 				80F612042AC98A2B002CABAB /* AppDelegate.swift in Sources */,
 				80F612062AC98A2B002CABAB /* SceneDelegate.swift in Sources */,
 			);
